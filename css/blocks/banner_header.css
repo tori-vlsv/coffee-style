@@ -1,0 +1,48 @@
+
+.banner__header {
+    background: url("../../images/banner.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1380px;
+    height: 530px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__header__p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.banner__header__desc {
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--white);
+    margin-bottom: 48px;
+}
+
+.banner__header__btn {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    padding: 0 24px;
+    background-color: var(--white);
+}

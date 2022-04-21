@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	box-shadow: none;
+}
+
+
+body, input, button {
+	font-family: 'Karla';
+	text-rendering: optimizeSpeed;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+}
+
+.big__wrapper {
+	margin: 0 auto;
+	max-width: 920px;
+	padding: 0 10px;
+}
+
+.thebiggest__wrapper {
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 0 10px;
+}
+
+

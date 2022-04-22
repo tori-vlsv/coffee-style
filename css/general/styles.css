@@ -9,5 +9,8 @@
 /* blocks */
 @import url(./../blocks/header.css);
 @import url(./../blocks/banner_header.css);
+@import url(./../blocks/about.css);
+@import url(./../blocks/featured_mugs.css);
+@import url(./../blocks/product.css);
 
 

@@ -25,6 +25,12 @@ input, textarea {
 	border: none;
 }
 
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 10px;
+}
+
 .big__wrapper {
 	margin: 0 auto;
 	max-width: 920px;
@@ -37,4 +43,65 @@ input, textarea {
 	padding: 0 10px;
 }
 
+.coffee__cost {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
 
+.coffee__discount {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--brown)
+}
+
+.coffee__old_price {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+	margin-left: 10px;
+}
+
+.coffe__name {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: var(--black);
+	margin-bottom: 5px;
+}
+
+.title h3 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 100px;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.title h3:before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #ECECED;
+    width: 30px;
+    left: -45px;
+}
+
+.title h3:after {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #ECECED;
+    width: 30px;
+    right: -45px;
+}
+
+.title {
+    text-align: center;
+}

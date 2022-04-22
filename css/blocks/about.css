@@ -1,0 +1,40 @@
+
+.about {
+    padding: 122px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 16px;
+    max-width: 578px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+    margin-bottom: 20px;
+    max-width: 658px;
+}
+
+.about__a {
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--brown);
+    text-align: center;
+    border-bottom: 1px solid rgba(162, 95, 75, 0.2);
+    transition: 0.5s;
+}
+
+.about__a:hover {
+    border-bottom: 1px solid var(--brown);
+}

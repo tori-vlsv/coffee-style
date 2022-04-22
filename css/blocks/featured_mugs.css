@@ -1,0 +1,27 @@
+
+.featured_mugs {
+    padding: 50px 0 50px;
+}
+
+.featured_mugs__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_mugs__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured_mugs__block img {
+    max-width: 460px;
+    max-height: 540px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.coffe__price {
+	display: flex;
+    align-items: center;
+}

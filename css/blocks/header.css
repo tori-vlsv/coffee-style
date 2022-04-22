@@ -78,5 +78,10 @@ nav a:hover {
     position: absolute;
     width: 92px;
     top: 24px;
-    border: 2px solid rgba(162, 95, 75, 0.3);
+    border-bottom: 2px solid rgba(162, 95, 75, 0.3);
+    transition: 0.5s;
+}
+
+.cart:hover:before {
+    border-bottom-color: var(--brown); 
 }

@@ -1,0 +1,9 @@
+
+.pic {
+    background: url("../../images/coffee11.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    height: 340px;
+    margin: 50px 0;
+}

@@ -1,0 +1,42 @@
+
+.blog {
+    padding: 50px 0 200px;
+}
+
+.blog__blocks {
+    display: flex;  
+    justify-content: space-between;      
+}
+
+.blog__block {
+    max-width: 300px;    
+}
+
+.block__img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blog__title {
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.blog__desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    margin-bottom: 16px;
+}
+
+time {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+}

@@ -1,0 +1,51 @@
+
+.feedback {
+    background-color: var(--black);
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 80px 0 85px;
+}
+
+.feedback h3 {
+    color: var(--white);
+    margin-bottom: 15px;
+}
+
+.feedback h2 {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 17px 46px;
+    border: 1px solid var(--white);
+    background: transparent;
+}
+
+.fb__btn {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 18px 25px;
+    border: none;
+    box-sizing: border-box;
+}

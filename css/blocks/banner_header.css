@@ -45,4 +45,9 @@ h1 {
     color: var(--black);
     padding: 0 24px;
     background-color: var(--white);
+    transition: 0.5s;
+}
+
+.banner__header__btn:hover {
+    color: var(--brown);
 }

@@ -40,3 +40,39 @@ time {
     text-transform: uppercase;
     color: var(--black);
 }
+
+@media(max-width: 950px) {
+    .blog__blocks {
+        display: flex;  
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 30px;    
+    }
+
+    .blog {
+        padding: 50px 0 100px;
+    }
+}
+
+@media(max-width: 500px) {
+    .blog {
+        padding: 30px 0 50px;
+    }
+
+    .blog__title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .blog__desc {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 14px;
+    }
+
+    .block__img {
+        margin-bottom: 15px;
+    }
+
+}

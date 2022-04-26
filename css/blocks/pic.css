@@ -7,3 +7,9 @@
     height: 340px;
     margin: 50px 0;
 }
+
+@media(max-width: 500px) {
+    .pic {
+        margin: 0;
+    }
+}

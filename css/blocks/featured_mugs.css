@@ -21,7 +21,33 @@
     margin-bottom: 35px;
 }
 
-.coffe__price {
+.coffee__price {
 	display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 950px) {
+
+    .featured_mugs__blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .featured_mugs__block img {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 500px) {
+    .featured_mugs {
+        padding: 20px 0 20px;
+    }
+
+    .featured_mugs__blocks {
+        gap: 10px;
+    }
+
 }

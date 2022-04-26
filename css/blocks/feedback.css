@@ -47,5 +47,30 @@ input {
     background-color: var(--white);
     padding: 18px 25px;
     border: none;
-    box-sizing: border-box;
+}
+
+@media(max-width: 550px)  {
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .feedback {
+        padding: 40px 0 45px;
+    }
+
+    .feedback h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    input {
+        padding: 17px;
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .fb__btn {
+        max-width: 280px;
+        width: 100%;
+    }
 }

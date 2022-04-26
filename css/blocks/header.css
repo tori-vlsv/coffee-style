@@ -3,9 +3,15 @@ header {
     position: fixed;
     background: white;
     width: 100%;
-    box-shadow: 0 4px 20px rgba(0,0,0,.1);
     z-index: 100;
-  }
+    transition: 0.5s;
+    height: 100px;
+    top: 0;
+}
+
+header.active {
+    box-shadow: 0 4px 20px rgba(0,0,0,.1);
+}
 
 .header {
     display: flex;
@@ -84,4 +90,36 @@ nav a:hover {
 
 .cart:hover:before {
     border-bottom-color: var(--brown); 
+}
+
+.burger__button {
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.burger__button svg { 
+    width: 100%;
+}
+
+@media(max-width: 950px)  {
+    .burger__button {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media(max-width: 950px)  {
+    .burger__button {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
 }

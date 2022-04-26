@@ -38,3 +38,33 @@
 .about__a:hover {
     border-bottom: 1px solid var(--brown);
 }
+
+@media(max-width: 950px) {
+    .about {
+        padding: 80px 0 50px;   
+    }
+}
+
+@media(max-width: 500px) {
+    .about h2 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: var(--black);
+        margin-bottom: 16px;
+        max-width: 578px;
+    }
+    
+    .about p {
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: rgba(29, 31, 46, 0.7);
+        margin-bottom: 20px;
+        max-width: 658px;
+    }
+
+    .about {
+        padding: 50px 0 30px;   
+    }
+}

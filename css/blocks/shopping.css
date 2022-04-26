@@ -70,3 +70,32 @@
 .shopping__btn:hover {
     background-color: var(--brown);   
 }
+
+@media(max-width: 950px) {
+    .shopping__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shopping__text {
+        margin-left: 0;
+        text-align: center;
+        order: 1;
+        margin-bottom: 26px;
+    }
+
+    .shopping__pic {
+        order: 2;
+    }
+}
+
+@media(max-width: 500px) {
+    .shopping__pic {
+        display: none;
+    }
+
+    .shopping {
+        padding: 30px 0;
+    }
+    
+}

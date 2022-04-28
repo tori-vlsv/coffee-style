@@ -72,6 +72,13 @@ input, textarea {
 	text-align: center;
 	color: var(--black);
 	margin-bottom: 5px;
+    border-bottom: solid 1px transparent;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.coffee__name:hover {
+    border-color: var(--black);
 }
 
 .title h3 {
@@ -104,6 +111,32 @@ input, textarea {
 
 .title {
     text-align: center;
+}
+
+.coffee__img {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.coffee__img img {
+    transition: 0.5s;
+}
+
+.coffee__img:hover img {
+    transform: scale(1.07);
+}
+
+.coffee__product__img img {
+    transition: 0.5s;
+}
+
+.coffee__product__img {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.coffee__product__img:hover img {
+    transform: scale(1.07);
 }
 
 @media(max-width: 950px) {

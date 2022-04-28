@@ -47,6 +47,12 @@ input {
     background-color: var(--white);
     padding: 18px 25px;
     border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fb__btn:hover {
+    background-color: var(--brown);
 }
 
 @media(max-width: 550px)  {

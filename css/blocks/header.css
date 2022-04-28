@@ -71,15 +71,19 @@ nav a:hover {
 }
 
 .cart__number {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 18px;
-    padding: 1px 6px;
+    min-height: 20px;
+    min-width: 20px;
     color: white;
     background-color: black;
-    border-radius: 9px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cart::before {
+.cart:before {
     content: '';
     position: absolute;
     width: 92px;
@@ -104,14 +108,8 @@ nav a:hover {
     width: 100%;
 }
 
-@media(max-width: 950px)  {
-    .burger__button {
-        display: block;
-    }
-
-    nav {
-        display: none;
-    }
+.menu__close {
+    display: none;
 }
 
 @media(max-width: 950px)  {
@@ -121,5 +119,62 @@ nav a:hover {
 
     nav {
         display: none;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: white;
+        top: 0;
+        left: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav a {
+        color: var(--black);
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3px;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .menu__close { 
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width: 500px)  {
+    .cart span {
+        display: none;
+    }
+
+    .cart:before {
+        display: none;
+    }
+
+    .cart {
+        width: auto;
+        padding-right: 10px;
+    }
+
+    .cart__number {
+        position: absolute;
+        top: -12px;
+        right: 0px;
+    }
+
+    .img__cart {
+        width: 22px;
+        height: 26px;
+        max-width: 100%;
+        max-height: 100%;
     }
 }

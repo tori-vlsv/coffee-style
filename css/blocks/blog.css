@@ -24,6 +24,12 @@
     line-height: 32px;
     color: var(--black);
     margin-bottom: 10px;
+    border-bottom: solid 1px transparent;
+    transition: 0.5s;
+}
+
+.blog__title:hover {
+    border-color: var(--black);
 }
 
 .blog__desc {
